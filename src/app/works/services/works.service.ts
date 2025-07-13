@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { catchError, map, Observable, of } from 'rxjs';
 import { Work } from '../interfaces/work.interface';
-import { environments } from '../../../environments/environments.prod';
+import { environments } from '../../../environments/environments';
 
 @Injectable({providedIn: 'root'})
 export class WorksService {
