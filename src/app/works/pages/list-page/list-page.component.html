@@ -1,0 +1,16 @@
+<p class="m-3 text-[18px] font-normal leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
+  Lista de tareas
+</p>
+<mat-divider></mat-divider>
+
+<div class="flex flex-row flex-wrap bm-8 pt-2">
+  <div *ngFor="let work of works"
+    class="col-12 sm:col-4 md:col-3 xl:col-2"
+  >
+    <work-card [work]="work"></work-card>
+  </div>
+</div>
+
+
+
+
